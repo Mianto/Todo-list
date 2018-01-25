@@ -1,0 +1,140 @@
+body {
+  background-color: orange;
+}
+
+
+input {
+  border-style: none;
+  background: transparent;
+  outline: none;
+}
+
+button {
+  padding: 0;
+  background: none;
+  border: none;
+  outline: none;
+}
+
+.webflow-style-input {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  border-radius: 2px;
+  padding: 1.4rem 2rem 1.6rem;
+  background: lightgrey;
+  border-bottom: solid 2px;
+}
+
+.webflow-style-input input {
+  flex-grow: 1;
+  font-size: 1.8rem;
+  line-height: 2.4rem;
+  vertical-align: middle;
+}
+
+.webflow-style-input button {
+  font-size: 2.4rem;
+  line-height: 2.4rem;
+  vertical-align: middle;
+ }
+
+
+
+.header {
+  text-align: center;
+}
+
+.disabled{
+  color: #707070;
+  text-decoration: line-through;
+}
+#alltasks {
+  display: flex;
+  flex-direction: column;
+
+}
+.difftask {
+  margin: 0px auto;
+  background-color:  #DCDCDC;
+  max-width:400px;
+  padding: 10px 10px;
+  height: 3em;
+  font-size: 1.7rem;
+  border: dotted 1px;
+}
+
+.difftask span{
+  margin-left: 10px;
+  box-sizing: border-box;
+}
+
+.envelope {
+  display: flex;
+  flex-direction: column;
+}
+
+#menubar {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  background-color: #DCDCDC;
+  width: 400px;
+}
+
+#number {
+  margin-left: 40%;
+}
+
+#tabs {
+  display: inline-flex;
+  flex-direction: row;
+  margin: 0 auto;
+  font-size: 2rem;
+  text-align: center;
+  background-color: #DCDCDC;
+  border-top: 2px solid;
+  border-bottom: 2px solid;
+}
+
+#all {
+  width: 133px;
+  padding: 5px;
+  border-right: 2px solid black;
+}
+
+#all:hover {
+  background-color: silver;
+}
+
+.active {
+  background-color: black;
+  color: white;
+}
+
+.active:hover {
+  background-color: silver;
+}
+
+
+#completed {
+  width: 133px;
+  padding: 5px;
+}
+
+#completed:hover {
+  background-color: silver;
+}
+
+#incomplete {
+  width: 133px;
+  padding: 5px;
+  border-left: 2px solid black;
+}
+
+#incomplete:hover {
+  background-color: silver;
+}
